@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lb308\\": "src/"
+            "Lb308\\Verbs\\": "src/"
         },
         "files": [
             "src/helpers.php"
