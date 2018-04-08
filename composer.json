@@ -1,22 +1,18 @@
 {
-    "name": "lb308/core",
+    "name": "lb308/verbs",
     "description": "Delightfully simple forum software.",
     "keywords": ["forum", "verb"],
     "homepage": "http://flarum.org",
     "license": "MIT",
     "authors": [
         {
-            "name": "Toby Zerner",
-            "email": "toby.zerner@gmail.com"
-        },
-        {
-            "name": "Franz Liedke",
-            "email": "franz@develophp.org"
+            "name": "Lahcen El Bouchti",
+            "email": "lahcenelbouchti@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/lb308/core/issues",
-        "source": "https://github.com/lb308/core",
+        "issues": "https://github.com/lb308/verbs/issues",
+        "source": "https://github.com/lb308/verbs",
         "docs": "http://flarum.org/docs"
     },
     "require": {
@@ -61,7 +57,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Flarum\\": "src/"
+            "Lb308\\": "src/"
         },
         "files": [
             "src/helpers.php"
